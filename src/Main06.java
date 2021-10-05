@@ -20,9 +20,9 @@ public class Main06 {
         System.out.println(f);
         System.out.println(d);
 
-        //エラーが発生するver
-//        double d = 3;    //64bit
-//        float f = d;     //32bit
+      //エラーが発生するver ※大きい箱を小さい箱に押し込もうとしているためエラーが発生する
+//        double d = 3;    64bit
+//        float f = d;     32bit
 //        System.out.println(d);
 //        System.out.println(f);
     }
