@@ -1,7 +1,7 @@
 /*
 print、println
 println…文字列を表示　+ 改行
-print  …文字列を表示する
+print  …文字列を表示する（連続して呼び出し）
  */
 
 public class Main08 {
