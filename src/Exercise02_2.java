@@ -23,11 +23,11 @@ public class Exercise02_2 {
         String ageString = new java.util.Scanner(System.in).nextLine();
 
         int age = Integer.parseInt(ageString); //String　→　int型に変換
-        int forture = new java.util.Random().nextInt(3);
-        ++ forture ;
+        int fortune = new java.util.Random().nextInt(4);
+        fortune++ ;
 
         System.out.println("占いの結果が出ました！");
-        System.out.println( age + "歳の" + name + "さんの運気番号は"+ forture + "です。" );
+        System.out.println( age + "歳の" + name + "さんの運気番号は"+ fortune + "です。" );
         System.out.println("１:大吉　２:中吉　３:吉　４:凶");
 
 
