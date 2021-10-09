@@ -13,7 +13,7 @@ cbrt  立方根
 public class Main09 {
     public static void main(String[] args) {
         //-16の絶対値は？？
-        int absolute_value = Math.abs(-16);
+        int absolute_value = Math.abs(-16); //→１６
         System.out.println(absolute_value);
         //=> System.out.println(Math.abs(-16)); でも可
 
@@ -35,7 +35,9 @@ public class Main09 {
         System.out.println(Math.pow(3,4));
 
         //平方根
+        System.out.println(Math.sqrt(4.0));
 
         //立方根
+        System.out.println(Math.cbrt(6.0));
     }
 }
