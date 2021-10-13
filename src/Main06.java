@@ -10,6 +10,8 @@
  　　（int）の部分はキャスト演算子
  　　箱に収まりきらない部分は、捨てられてしまうため
  　　不具合が出たりすることあるらしく、おすすめはされていないらしい。
+
+
  */
 
 public class Main06 {
@@ -25,5 +27,19 @@ public class Main06 {
 //        float f = d;     32bit
 //        System.out.println(d);
 //        System.out.println(f);
+
+        int a = 5;
+        int b = 2;
+        System.out.println(a / b);
+        System.out.println((double)a/b);
     }
 }
+
+ /*
+ →あんまり勧められていない、型の強制変換っていつ使うの？？
+            int型同士の計算だと、結果もint型になるから
+            5/2　みたいに小数が発生する計算のとき、小数の部分が切り捨てられてしまうらしい。
+            　　　　　5/2　→評価の結果　２
+            (double)5/2 →　評価の結果　2.5
+
+  */
